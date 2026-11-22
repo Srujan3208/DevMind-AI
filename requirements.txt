@@ -1,0 +1,10 @@
+torch
+datasets
+transformers
+tokenizers
+accelerate
+pandas
+numpy
+matplotlib
+scikit-learn
+tqdm
