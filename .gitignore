@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+venv/
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Training artifacts and large files
+checkpoints/
+models/
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.onnx
+
+# Dataset files (keep dataset documentation)
+datasets/raw/*
+datasets/processed/*
+!datasets/README.md
+
+# Logs
+logs/
+*.log
+
+# Editor
+.vscode/
+.idea/
